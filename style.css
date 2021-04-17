@@ -1,24 +1,57 @@
+/*HTML Elements*/
+
 body {
     background-color:black;
     font-family: arial;
     color: white;
+    align-content: center;
 }
 
 h1 {
-    color:grey;
+    color: grey;
     font-family: verdana;
-}
-
-.mainDiv {
-    background-color: white;
-    color:black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    align: center;
 }
 
 mark {
     background-color: yellow;
     font-weight: bold;
+}
+
+/*ID Elements*/
+
+#principal {
+    margin-left: 110px;
+}
+
+#rate {
+    margin-left: 73px;
+}
+
+#years {
+    margin-left: 78px;
+}
+
+/*CLASS Elements*/
+
+.mainDiv {
+    background-color: white;
+    color: black;
+    width: 473px;
+    padding: 20px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 15;
+    left: 50%;
+    top: 10%;
+    margin: -75px 0 0 -300px;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.leftAligned {
+    float: left;
 }
